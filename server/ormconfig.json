@@ -1,0 +1,11 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "User",
+  "synchronize": true,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "autoLoadEntities": true,
+  "entities": ["dist/**/*.entity{.ts,.js}"]
+}
